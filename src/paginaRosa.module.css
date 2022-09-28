@@ -1,0 +1,14 @@
+.containerRosa {
+    background-color: rgba(192, 106, 173, 0.842);
+    padding: 40vh 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 650px) {
+    .containerRosa h2 {
+        font-size: 1.8rem;
+        word-wrap: break-word;
+        padding: 0 10vw;
+    }
+}

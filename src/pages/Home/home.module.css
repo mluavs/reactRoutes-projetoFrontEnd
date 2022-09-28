@@ -1,0 +1,36 @@
+/*.header{
+    background-color: goldenrod;
+    padding: 40vh 0;
+    text-align: center;
+    overflow: hidden;
+}*/
+
+.containerMainText {
+    background-color: goldenrod;
+    padding: 30px;
+}
+
+.containerMain h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    word-wrap: break-word;
+    padding: 0 10vw;
+}
+
+.containerMainText p {
+   font-family: var(--font-family2);
+}
+
+.containerMain {
+    background-color: rgba(192, 106, 173, 0.842);
+    padding: 40vh 0;
+    text-align: justify;
+}
+
+@media screen and (max-width: 650px) {
+    .containerMain h2 {
+        font-size: 1.8rem;
+        word-wrap: break-word;
+        padding: 0 10vw;
+    }
+}

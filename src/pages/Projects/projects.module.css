@@ -1,0 +1,11 @@
+.container {
+    background-color: goldenrod;
+    width: 100%;
+    text-align: center;
+}
+
+.container p {
+    font-family: var(--font-family2);
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}

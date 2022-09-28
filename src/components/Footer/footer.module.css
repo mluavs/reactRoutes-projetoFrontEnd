@@ -1,0 +1,14 @@
+.footer{
+    background-color: #f37d15;
+    width: 100%;
+    height: 10vh;
+    overflow: hidden;
+    padding-bottom: 18vh;
+}
+
+.footer p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 4vh;
+}

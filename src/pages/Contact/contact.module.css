@@ -1,0 +1,82 @@
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: goldenrod;
+    color: white;
+    padding-top: 8vh;
+    align-content: center;
+}
+
+.headerContainer h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#email a{
+    color: black;
+    text-decoration: none;
+}
+
+#email a:hover {
+    color: rgba(192, 106, 173, 1);
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.headerContainer p{
+    font-style: italic;
+    padding: 2vh 2vw;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.form input{
+    margin: 1vh;
+    border-radius: 5px;
+    padding: 2vh 2vw;
+    font-family: var(--font-family2);
+    font-size: 1em;
+}
+
+.form textarea{
+    margin: 1vh;
+    padding: 2vh 2vw;
+    border-radius: 5px;
+    font-family: var(--font-family2);
+    font-size: 1em;
+}
+
+.formButton{
+    margin: 30px;
+    width: 20vw;
+    height: 5vh;
+    font-family: var(--font-family2);
+    border-radius: 10%;
+    background-color:  rgba(192, 106, 173, 0.842);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    
+    .formButton{
+        margin: 30px;
+        width: 30vw;
+        height: 10vh;
+        font-family: var(--font-family2);
+        border-radius: 10%;
+        background-color:  rgba(192, 106, 173, 0.842);
+        cursor: pointer;
+    } 
+
+    .headerContainer h1{
+        font-size: 2.2rem;
+    }
+}

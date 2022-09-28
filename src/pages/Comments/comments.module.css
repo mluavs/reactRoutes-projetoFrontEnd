@@ -1,0 +1,88 @@
+.commentsContainer{
+   background-color: #88A66A;
+   padding-bottom: 30vh;
+}
+
+.header{
+   text-align: center;
+   width: 100%;
+   padding: 8vh 0;
+}
+
+.header h1 {
+   font-size: 3rem;
+   word-wrap: break-word;
+}
+
+.italic {
+   font-style: italic;
+   color: white;
+   font-family: var(--font-family2);
+}
+
+.header p {
+   padding-top: 5vh;
+   margin: 0 10vw;
+   font-family: var(--font-family2);
+   font-size: 1.5rem;
+   word-wrap: break-word;
+}
+
+.inputContainer{
+   display: flex;
+   justify-content: center;
+   padding: 5vh;
+}
+
+.inputContainer input{
+   font-family: var(--font-family2);
+   text-align: center;
+   padding: 1vh;
+   font-size: 1em;
+   border-radius: 10px;
+}
+
+.addContainer{
+   display: flex;
+   justify-content: center;
+   padding: 5vh;
+}
+
+.addTask{
+   background-color: rgba(192, 106, 173, 0.842);
+   width: 200px;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.listItems li{
+   text-align: right;
+   margin: 0 10vw;
+  list-style: none;
+  font-family: var(--font-family2);
+}
+
+.removeTask{
+   color: white;
+   background-color: red;
+   border: none;
+   font-weight: 00;
+   width: 5vw;
+   height: 5vh;
+   border-radius: 10%;
+   font-family: var(--font-family2);
+}
+
+@media screen and (max-width: 450px) {
+   .header p {
+      margin: 0 5vw;
+      font-family: var(--font-family2);
+      font-size: 1rem;
+      word-wrap: break-word;
+   }
+
+   .header h1 {
+      margin: 0 2vw;
+      font-size: 2.2rem;
+   }
+}

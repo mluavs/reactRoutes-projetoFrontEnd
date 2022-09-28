@@ -1,0 +1,40 @@
+.aboutContainer{
+    background-color: #f37d15;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.containerText {
+    padding: 40vh 5vw;
+}
+
+.containerText h1 {
+    font-size: 3rem;
+}
+
+.containerText p {
+    padding: 0 10vw;
+    font-family: var(--font-family2);
+    font-size: 2rem;
+}
+
+.containerText a {
+    font-family: var(--font-family2);
+    font-size: 2rem;
+    text-decoration: none;
+    padding-left: 10vw;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .containerText p {
+        font-size: 1.3rem;
+    }
+}
+
+    
+
+    
