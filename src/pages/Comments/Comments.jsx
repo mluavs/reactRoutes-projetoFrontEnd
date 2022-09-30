@@ -1,5 +1,4 @@
 import styles from './comments.module.css'
-import commentImg from '../../assets/comment-img.svg'
 import { FiPlus, FiTrash2 } from 'react-icons/fi'
 import { nanoid } from 'nanoid'
 import { useState, useEffect } from 'react'

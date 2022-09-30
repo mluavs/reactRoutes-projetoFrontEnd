@@ -6,7 +6,7 @@
 }*/
 
 .containerMainText {
-    background-color: goldenrod;
+    background-color: var(--color1);
     padding: 30px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .containerMain {
-    background-color: rgba(192, 106, 173, 0.842);
+    background-color: var(--color3);
     padding: 40vh 0;
     text-align: justify;
 }

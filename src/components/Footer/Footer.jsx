@@ -1,10 +1,12 @@
 import styles from './footer.module.css'
 
 function Footer(){
-    return(
+    var today = new Date();
+
+    return (
         <div className={styles.footer}>
-            <p>Copyright 2022 | Desenvolvido em React por Marina Lua @mluavs</p>
-        </div>
+        <p>Copyright - {today.getFullYear()} | Desenvolvido por Marina Lua @mluavs</p>
+        </div> 
     )
 }
 

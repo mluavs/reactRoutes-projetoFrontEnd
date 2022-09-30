@@ -1,5 +1,5 @@
 .containerAmarelo {
-    background-color: goldenrod;
+    background-color: var(--color1);
     padding: 40vh 0;
     text-align: center;
     overflow: hidden;

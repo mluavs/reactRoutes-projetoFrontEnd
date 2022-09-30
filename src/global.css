@@ -6,8 +6,13 @@
 }
 
 #root{
-    --font-family1: 'Barrio', cursive;
     --font-family2: 'Inconsolata', monospace; 
+    --color1: goldenrod;
+    --color2: #88A66A;
+    --color3: rgba(192, 106, 173, 0.842);
+    --color4: #d63f3c;
+    --color5: #d98721;
+    --color6: #faf9ff;
 }
 
 h1{

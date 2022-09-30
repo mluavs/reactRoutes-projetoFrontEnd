@@ -1,5 +1,5 @@
 .commentsContainer{
-   background-color: #88A66A;
+   background-color: var(--color2);
    padding-bottom: 30vh;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .addTask{
-   background-color: rgba(192, 106, 173, 0.842);
+   background-color: var(--color3);
    width: 200px;
    border-radius: 10px;
    padding: 10px;
@@ -64,7 +64,7 @@
 
 .removeTask{
    color: white;
-   background-color: red;
+   background-color: var(--color4);
    border: none;
    font-weight: 00;
    width: 5vw;

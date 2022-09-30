@@ -1,5 +1,5 @@
 .container {
-    background-color: goldenrod;
+    background-color:var(--color1);
     width: 100%;
     text-align: center;
 }

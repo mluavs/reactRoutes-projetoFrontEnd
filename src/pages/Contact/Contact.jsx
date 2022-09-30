@@ -3,7 +3,6 @@ import { getDatabase, ref, set, push } from "firebase/database";
 
 import { useState } from 'react'
 import styles from './contact.module.css'
-import imgContact from '../../assets/eleni.png'
 
 function Contact() {
     const[nome, setNome] = useState('')
@@ -60,7 +59,8 @@ function Contact() {
                 className={styles.formInput} placeholder="Digite seu email" 
                 value={email}
                 />
-                <textarea 
+                <input 
+                type='text'
                 onChange={handleInputValueMensagem} 
                 className={styles.formTextArea} placeholder="Digite sua mensagem"
                 value={mensagem}

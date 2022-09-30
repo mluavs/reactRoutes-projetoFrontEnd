@@ -1,8 +1,8 @@
 .headerContainer{
     display: flex;
     flex-direction: column;
-    background-color: goldenrod;
-    color: white;
+    background-color: var(--color1);
+    color:var(--color6);
     padding-top: 8vh;
     align-content: center;
 }
@@ -19,7 +19,7 @@
 
 #email a:hover {
     color: rgba(192, 106, 173, 1);
-    background-color: white;
+    background-color:var(--color6);
     padding: 10px;
     border-radius: 10px;
 }
@@ -46,21 +46,13 @@
     font-size: 1em;
 }
 
-.form textarea{
-    margin: 1vh;
-    padding: 2vh 2vw;
-    border-radius: 5px;
-    font-family: var(--font-family2);
-    font-size: 1em;
-}
-
 .formButton{
     margin: 30px;
-    width: 20vw;
-    height: 5vh;
+    min-width: 12vw;
+    min-height: 12vh;
     font-family: var(--font-family2);
     border-radius: 10%;
-    background-color:  rgba(192, 106, 173, 0.842);
+    background-color: var(--color3);
     cursor: pointer;
 }
 
@@ -68,11 +60,9 @@
     
     .formButton{
         margin: 30px;
-        width: 30vw;
-        height: 10vh;
         font-family: var(--font-family2);
         border-radius: 10%;
-        background-color:  rgba(192, 106, 173, 0.842);
+        background-color:  var(--color3);
         cursor: pointer;
     } 
 
